@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap');
+
+
+*{
+    margin:0%;
+    padding:0%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+nav {
+    display:flex;
+    height:10vh;
+    background-color: #f4f4f4;
+}
+nav div {
+    display:flex;
+    width: 100%;
+    align-items:center;
+}
+nav ul ol {
+    list-style-type: none;
+    margin-left: 10%;
+}
+
+nav .nav-item {
+    padding: 30px;
+}
+nav .nav-item ul li{
+    display:inline;
+    margin: 30px;
+    color: black;
+}
+nav .nav-item ul li a{
+    border: 15px 15px;
+    text-decoration: none;
+}
+nav .right-side {
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 3%;
+    margin-right: 3%;
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    background-color: #ec4d37;
+    padding:10px 10px;
+    border-radius: 10 px;
+}
+
+nav img{
+    width: 49px;
+    height: 33px;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 20px;
+}
+.form-contact {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-contact label {
+    font-weight: 200;
+    font-size: 20px
+}
+.form-contact select,
+.form-contact input,
+.form-contact textarea {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+}
+.form-contact form textarea {
+    height: 100px;
+    resize: none;
+}
+.form-contact form button {
+    padding: 12px 30px;
+    color: white;
+    background-color: #ec4d37;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 270px;
+}
+.card {
+     border: 10vh 
+     rgb(147, 150, 147);
+     padding: 20px 30px;
+     border-radius: 10px;
+     background-color:
+     rgb(228, 231, 228);
+     color:rgb(41, 40, 40);
+     display:flex;
+     flex-direction: row;
+     align-items: center;
+}
+.card .content .image img {
+    width: 34px;
+    padding: 2px;
+    margin: 2px;
+}
+.card .content button {
+    background-color: black;
+    border-radius: 15px;
+    border-bottom: 20px;
+    color:whitesmoke;
+    padding: 10px;
+    margin: 20px 1px;
+    cursor: pointer;
+}
+.card .content p{
+    padding-left: 2px;
+}
+
+.card .content p i{
+    padding-left: 10px;
+    cursor:pointer;
+
+}
+.card .content h3{
+    margin: 30px, 140px, 30px, 10px;
+
+}
+.card .image1 img{
+    width: 224px;
+    height: 300px
+}
+.personal {
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    margin-bottom: 50px;
+}
+.personal .container-content {
+    display:flex ;
+    width:145vh;
+    justify-content: center;
+    margin-top: 10vh;
+}
+.container-content .left{
+    flex: 60%;
+    display:flex
+}
+ table {
+    border-radius: 0px 0px 15px 15px;
+    align-items:center;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/*myProject*/
+
+.project-list{
+    border: 38px;
+    display: flex;
+}
+
+.project-card-item {
+    width: 300px;
+    background-color:#dbdbdb;
+    border-radius: 10px;
+    margin:auto;
+
+}
+.project-image{
+    padding: 10;
+}
+span{
+    position: absolute;
+    margin-left: 533px;
+    margin-top: 14px;
+}
+.project-image img{
+    width: 270px;
+    height: 275px;
+}
+
+img {
+    width: 20px;
+    margin: 4px;
+}
+.project-content{
+    display: contents;
+}
+.project-content h1 {
+    font-size: 20px;
+    margin: 10px;
+}
+.detail-project-content {
+    font-size: 10px;
+    padding: 0px;
+}
+.project-content p {
+    width: 280px;
+    border-top: 10px;
+    margin: 10px;
+}
+.btn-group {
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+}
+.btn-group button {
+    padding: 7px;
+    margin: 0px 10px 4px 10px;
+    background-color: black;
+    border-radius: 10px;
+    border:10px;
+    color:#f4f4f4;
+}
+button {
+    padding: 12px 30px;
+    color: white;
+    background-color: rgb(20 20 20);
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 400px;
+}
+.project-detail-image{
+    display: flex;
+    align-items: center;
+}
+.project-detail-image img{
+    width: 1000px;
+    height: 400px;
+}
+.project-detail-content-image img{
+    width: 20px;
+    height: 20px;
+    margin-left: 200px;
+} 
+.project-detail-content-image text{
+    position: fixed;
+}
+.project-detail-content-image p{
+    margin-left:200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input {
+    background-color: white;
+}
